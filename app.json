@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/provider-select/provider-select",
+    "pages/provider-select2/provider-select",
+    
+    "pages/fiat/button/button",
+    "pages/fiat/cell/cell",
+    "pages/fiat/index/index",
+    "pages/fiat/toast/toast",
+    "pages/fiat/input/input",
+    "pages/fiat/dialog/dialog",
+    "pages/fiat/sheet/sheet"
+  ],
+  "window": {
+    "defaultTitle": "Safaricom",
+    "titleBarColor": "#008000"
+  }
+}

@@ -1,0 +1,10 @@
+<view class="f-body">
+  <!-- <f-input placeholder="Search your provider" class="p-16" onInput="onSearchInput">
+    <image src="/components/fiat/assets/search.svg" slot="iconInnerLeft"/>
+  </f-input> -->
+
+  <provider-list 
+    providers="{{ providersSearchResult }}" 
+    isSearch="{{ isSearch }}"
+  />
+</view>
