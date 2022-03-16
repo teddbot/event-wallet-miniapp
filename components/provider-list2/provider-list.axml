@@ -41,7 +41,7 @@
 </view>
 
 
-<!-- <view a:if="{{ !isSearch }}"  class="mt-32">
+<view a:if="{{ !isSearch }}"  class="mt-32">
   <f-divider 
     class="py-4 px-16" 
     title="FIAT COMPONENTS" 
@@ -62,4 +62,4 @@
     </f-cell-action>
   </f-cell>
   <f-divider/>
-</view> -->
+</view>

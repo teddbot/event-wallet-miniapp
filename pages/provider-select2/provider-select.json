@@ -1,6 +1,6 @@
 {
   "usingComponents": {
     "f-input": "/components/fiat/f-input/f-input",
-    "provider-list": "/components/provider-list/provider-list"
+    "provider-list": "/components/provider-list2/provider-list"
   }
 }
