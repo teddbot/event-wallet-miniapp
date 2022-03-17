@@ -1,0 +1,35 @@
+<!-- <image class="banner" mode="widthFix" src="https://a.m.dana.id/resource/imgs/miniprogram/img-banner-default.svg"/> -->
+<!-- <view class="pl-16 pr-16 pb-16">
+  <provider-name class="mt-8 mb-12" providerName="{{ providerName }}"/>
+
+  <customer-number-input 
+    onInput="onCustomerNumberInput" 
+    showLoader="{{ customerNumberLoading }}"
+    errorMsg="{{ custNumberInputErrorMsg }}"
+  >
+    <help-button slot="iconOutterRight" onTap="openHelpDialog"/>
+  </customer-number-input>
+
+  <denom-list denoms="{{ denoms }}" onInputError="onInputError" />
+</view> -->
+<!-- 
+<help-dialog ref="saveHelpDialogRef">
+  <help-dialog-title>How to get your customer number info modal</help-dialog-title>
+  <help-dialog-content>
+    <view class="mb-16">{{ helpDialogMessage }}</view>
+    <image mode="widthFix" src="https://a.m.dana.id/resource/imgs/miniprogram/howto-image.svg"/>
+  </help-dialog-content>
+  <help-dialog-action>
+    <f-btn size="small" onTap="closeHelpDialog">I UNDERSTAND</f-btn>
+  </help-dialog-action>
+</help-dialog> -->
+<view class="f-body">
+  <!-- <f-input placeholder="Search your provider" class="p-16" onInput="onSearchInput">
+    <image src="/components/fiat/assets/search.svg" slot="iconInnerLeft"/>
+  </f-input> -->
+
+  <provider-list 
+    providers="{{ providersSearchResult }}" 
+    isSearch="{{ isSearch }}"
+  />
+</view>

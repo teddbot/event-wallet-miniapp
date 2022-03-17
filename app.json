@@ -2,7 +2,7 @@
   "pages": [
     "pages/index/index",
     "pages/provider-select/provider-select",
-    "pages/provider-select2/provider-select",
+    "pages/provider-select/provider-select2",
     
     "pages/fiat/button/button",
     "pages/fiat/cell/cell",

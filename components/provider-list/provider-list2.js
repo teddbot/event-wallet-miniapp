@@ -11,7 +11,7 @@ Component({
     onProviderCellTap (e, props) {
       const { provider } = props
       my.navigateTo({
-        url: `/pages/provider-select2/provider-select2?providerName=${provider.name || ''}`
+        url: `/pages/provider-select/provider-select2?providerName=${provider.name || ''}`
       })
     },
     onTapFiatCell () {
